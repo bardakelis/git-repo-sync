@@ -1,3 +1,4 @@
+exit 1
 echo "git remote target is: $INPUT_TARGET_URL"
 git remote add target https://${INPUT_TARGET_USERNAME}:${INPUT_TARGET_TOKEN}@${INPUT_TARGET_URL}
 
